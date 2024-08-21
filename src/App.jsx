@@ -49,7 +49,7 @@ const App = () => {
   //   return <LoadingScreen />;
   // }
 return(
-  <main className="relative bg-[#cdd1ff] "  >
+  <main className="relative  bg-gradient-to-b from-[#fbfbfb] via-[#ff4b3b] to-[#db1b06]"  >
     {/* <Nav /> */}
    
 
@@ -59,6 +59,7 @@ return(
     {/* <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><ComingSoon /></section> */}
    
     <Hero3 />
+    
     <SeparatorReverse />
     
 
@@ -69,7 +70,7 @@ return(
     </section>
     <Separator />
     <section className="w-full h-full bg-cover bg-center   " style={{ backgroundImage: `url(${buttonBg})` }}>
-       <ButtonSection linkUrl="https://pump.fun/5eayDLdACv74f7hWWvZDEGaUAwHhg15XBL2hV8jFpump"  />
+       <ButtonSection linkUrl="https://sunpump.meme/"  />
     </section>
 
     <SeparatorReverse />
@@ -77,7 +78,7 @@ return(
     <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${buttonBg2})` }}>
        <ButtonSection2 />
     </section>
-    <Footer2 linkUrl="https://pump.fun/5eayDLdACv74f7hWWvZDEGaUAwHhg15XBL2hV8jFpump" />
+    <Footer2 linkUrl="https://sunpump.meme/" />
   </main>
 );
 };
