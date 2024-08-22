@@ -16,7 +16,7 @@ const Hero3 = () => {
        <div className="w-full flex justify-end p-4 space-x-4">
          <button
           onClick={() => document.getElementById('roadmap').scrollIntoView({ behavior: 'smooth' })}
-          className="bg-[#a30000] text-black text-[37px] font-anton border-4 border-black px-20 py-11 rounded-3xl hover:bg-blue-700"
+          className="bg-[#a30000] text-black text-[37px] font-anton border-4 border-black px-20 py-11 rounded-3xl hover:bg-[#ff0000]"
         >
           ROADMAP
         </button>
@@ -24,7 +24,7 @@ const Hero3 = () => {
           href="https://sunpump.meme/"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#a30000] text-white border-4 border-black px-20 py-11 rounded-3xl hover:bg-[rgb(58,15,15)] flex items-center"
+          className="bg-[#a30000] text-white border-4 border-black px-20 py-11 rounded-3xl hover:bg-[#ff0000] flex items-center"
         >
           <img src={img2} alt="X Logo" className="w-14 h-14" />
         </a>
@@ -43,16 +43,16 @@ const Hero3 = () => {
           <img src={logoMain} alt="Logo" className="w-full h-auto mb-8" />
 
           {/* Contract Address with Copy Button */}
-          <div className="bg-purple-600 border-black border-4 p-4 rounded-3xl flex items-center space-x-2">
+          <div className="bg-[#a30000] border-black border-4 p-4 rounded-3xl flex items-center space-x-2">
             <input
               type="text"
               value={contractAddress}
               readOnly
-              className="w-max bg-[#8218df] border-4 border-[#922c8d] rounded-3xl px-4 py-2 text-black font-anton text-lg"
+              className="w-max bg-[#ff0000] border-4 border-[#000000] rounded-3xl px-4 py-2 text-black font-anton text-lg"
             />
             <button
               onClick={copyToClipboard}
-              className="bg-[#a30000] text-white p-3 rounded-3xl hover:bg-blue-700 flex items-center"
+              className="bg-[#a30000] text-white p-3 rounded-3xl hover:bg-[#ff0000] flex items-center"
             >
               <FaClipboard />
             </button>
@@ -64,10 +64,10 @@ const Hero3 = () => {
       <div className="relative w-full h-full flex justify-center items-center mt-36">
         {/* First Button */}
         <a
-          href="https://x.com/"
+          href="https://x.com/RubyOnTron"
           target="_blank"
           rel="noopener noreferrer"
-          className="absolute bg-[#a30000] p-8 rounded-xl border-4 border-black hover:bg-blue-700 flex justify-center items-center transition-transform transform hover:scale-110"
+          className="absolute bg-[#a30000] p-8 rounded-xl border-4 border-black hover:bg-[#ff0000] flex justify-center items-center transition-transform transform hover:scale-110"
           style={{
             width: '290px',
             height: '200px',
@@ -81,10 +81,10 @@ const Hero3 = () => {
 
         {/* Second Button */}
         <a
-          href="https://t.me/"
+          href="https://t.me/RUBYonTRX"
           target="_blank"
           rel="noopener noreferrer"
-          className="absolute bg-[#a30000] p-8 rounded-xl border-4 border-black hover:bg-blue-700 flex justify-center items-center transition-transform transform hover:scale-110"
+          className="absolute bg-[#a30000] p-8 rounded-xl border-4 border-black hover:bg-[#ff0000] flex justify-center items-center transition-transform transform hover:scale-110"
           style={{
             width: '290px',
             height: '200px',
