@@ -70,7 +70,7 @@ return(
     </section>
     <Separator />
     <section className="w-full h-full bg-cover bg-center   " style={{ backgroundImage: `url(${buttonBg})` }}>
-       <ButtonSection linkUrl="https://sunpump.meme/"  />
+       <ButtonSection linkUrl="https://sunpump.meme/token/TUXutZTsnKVraCqpDNUxLyfnxtsKkY2dbT"  />
     </section>
 
     <SeparatorReverse />
@@ -78,7 +78,7 @@ return(
     <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${buttonBg2})` }}>
        <ButtonSection2 />
     </section>
-    <Footer2 linkUrl="https://sunpump.meme/" />
+    <Footer2 linkUrl="https://sunpump.meme/token/TUXutZTsnKVraCqpDNUxLyfnxtsKkY2dbT" />
   </main>
 );
 };

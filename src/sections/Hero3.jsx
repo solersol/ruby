@@ -3,7 +3,7 @@ import { FaClipboard } from 'react-icons/fa'; // Clipboard icon for the copy but
 import { logoMain, diamondImage, cardImage1, img1, img2 } from '../assets/images'; // Replace with your actual image paths
 
 const Hero3 = () => {
-  const contractAddress = ''; // Replace with the actual contract address
+  const contractAddress = 'TUXutZTsnKVraCqpDNUxLyfnxtsKkY2dbT'; // Replace with the actual contract address
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(contractAddress);
@@ -21,7 +21,7 @@ const Hero3 = () => {
           ROADMAP
         </button>
         <a
-          href="https://sunpump.meme/"
+          href="https://sunpump.meme/token/TUXutZTsnKVraCqpDNUxLyfnxtsKkY2dbT"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-[#a30000] text-white border-4 border-black px-20 py-11 rounded-3xl hover:bg-[#ff0000] flex items-center"
