@@ -3,7 +3,7 @@ import { buttonImage, bed } from '../assets/images'; // Replace with your actual
 
 const Footer2 = ({ linkUrl }) => {
   return (
-    <section className="w-full bg-[#aa392c] flex flex-col items-center py-8">
+    <section className="w-full bg-[#a30000] flex flex-col items-center py-8">
       {/* Top Centered Button Image */}
       <a
         href={linkUrl}
